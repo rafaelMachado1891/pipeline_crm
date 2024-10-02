@@ -26,7 +26,7 @@ def main ():
                 produto = produto
             )
 
-            salvar_no_postgres(Vendas)
+            salvar_no_postgres(venda)
             st.success('Dados salvos com sucesso!')
 
         except ValidationError as e:
